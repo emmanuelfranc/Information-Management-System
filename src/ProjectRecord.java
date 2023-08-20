@@ -13,7 +13,7 @@ public class ProjectRecord {
 
     public int getNumberOfProjects() {
         return pr.size();
-    }
+    } 
 
     public String findAll(String arg, String value) {
         ListIterator<Project> iter = pr.listIterator();
